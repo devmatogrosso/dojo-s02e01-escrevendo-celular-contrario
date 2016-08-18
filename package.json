@@ -1,0 +1,20 @@
+{
+  "name": "dojo.js",
+  "version": "1.0.0",
+  "description": "Boilerplate for Coding Dojo in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "ava --watch",
+    "test": "ava"
+  },
+  "author": "gpedro <gpedro831@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "ava": {
+    "files": ["test/**/*.js"],
+    "source": ["src/**/*.js"]
+  }
+}
